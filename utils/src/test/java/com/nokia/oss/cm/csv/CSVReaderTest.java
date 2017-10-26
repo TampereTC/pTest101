@@ -1,6 +1,6 @@
 package com.nokia.oss.cm.csv;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,7 +25,7 @@ public class CSVReaderTest {
 		reader.read("foo");
 	}
 		
-	@Test
+	@Test()
 	public void testReadCSVToNEPojosList_AndExpectCorrectAmountOfPojos() throws IOException {
 		Collection<NEPojo> pojos = reader.read("unit_test_data.csv");
 		assertEquals(55,pojos.size());

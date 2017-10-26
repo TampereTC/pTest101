@@ -49,12 +49,6 @@
 				<version>${jetty.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>4.12</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-servlets</artifactId>
 				<version>${jetty.version}</version>
@@ -109,12 +103,7 @@
 				<artifactId>javaee-api</artifactId>
 				<version>${javax.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>4.12</version>
-				<scope>test</scope>
-			</dependency>
+
 			<dependency>
 				<groupId>org.glassfish.jersey.core</groupId>
 				<artifactId>jersey-server</artifactId>
@@ -186,6 +175,7 @@
                 <artifactId>web-service.utils</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+       
 		</dependencies>
 	</dependencyManagement>
 
